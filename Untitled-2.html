@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SỨC KHỎE TINH THẦN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background: #f077ca;
+            color: rgb(1, 0, 0);
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background: #4CAF50;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #f06dc2;
+            color: rgb(6, 0, 0);
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .quiz-container {
+            margin-top: 20px;
+        }
+        .question {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        function startQuiz() {
+            let score = 0;
+            let answers = document.querySelectorAll('input[type="radio"]:checked');
+            answers.forEach(answer => {
+                score += parseInt(answer.value);
+            });
+            
+            let result = "";
+            if (score <= 15) {
+                result = "Tình trạng tinh thần tốt. Bạn có ít dấu hiệu stress hoặc lo âu.";
+            } else if (score <= 25) {
+                result = "Mức độ stress trung bình. Hãy cân nhắc nghỉ ngơi và chăm sóc bản thân.";
+            } else {
+                result = "Mức độ stress cao. Hãy tìm cách giảm stress và cân nhắc gặp chuyên gia tâm lý.";
+            }
+            
+            alert(result);
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>CHÀO MỪNG ĐẾN VỚI SỨC KHỎE TINH THẦN</h1>
+    </header>
+    <nav>
+        <!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sức Khỏe Tinh Thần</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .navbar {
+            background-color: #4CAF50;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            background-color: #45a049;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #e0f2f1;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        ul li:hover {
+            background: #b2dfdb;
+        }
+        ul li a {
+            text-decoration: none;
+            color: #00796b;
+            font-weight: bold;
+        }
+    </style>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sức khỏe Tinh thần</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    
+        <!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sức khỏe Tinh thần</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sức Khỏe Tinh Thần</title>
+        <style>
+            /* Định dạng thanh menu */
+            .menu-bar {
+                display: flex;
+                justify-content: center; /* Căn giữa menu */
+                background-color: #4CAF50; /* Màu nền xanh lá */
+                padding: 10px 0;
+            }
+            .menu-bar ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+            }
+            .menu-bar li {
+                margin: 0 15px; /* Khoảng cách giữa các mục menu */
+            }
+            .menu-bar a {
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                font-size: 16px;
+                font-weight: bold;
+                padding: 10px 15px;
+                display: block;
+            }
+            .menu-bar a:hover {
+                background-color: #45a049;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <div class="container">
+        
+            
+            <!-- Thanh menu nằm ngang -->
+            <nav class="menu-bar">
+                <ul>
+                    <li><a href="#blog">📖 BLOG & BÀI VIẾT</a></li>
+                    <li><a href="#quiz">📝 CÔNG CỤ ĐÁNH GIÁ</a></li>
+                    <li><a href="#community">💬 GÓC CHIA SẺ</a></li>
+                    <li><a href="#resources">📚 TÀI NGUYÊN HỖ TRỢ</a></li>
+                </ul>
+            </nav>
+    
+            <h2 class="text-2xl font-bold text-center mb-4"> 📖 BLOG & BÀI VIẾT</h2>
+            
+            <ul>
+                <li><a href="https://9soul.vn/blog/cham-soc-suc-khoe-tinh-than-07-buoc-de-tinh-than-thoai-mai-va-binh-yen/?utm_source=chatgpt.com" target="_blank">07 Bước để Tinh thần Thoải mái và Bình yên</a></li>
+                <li><a href="https://blog.topcv.vn/suc-khoe-tinh-than-la-gi-lam-the-nao-de-cham-soc-suc-khoe-tinh-than/?utm_source=chatgpt.com" target="_blank">Sức khỏe tinh thần là gì? Cách chăm sóc sức khỏe tinh thần</a></li>
+                <li><a href="https://bookfun.vn/blog-hay/cai-thien-suc-khoe-tinh-than?utm_source=chatgpt.com" target="_blank">Cải thiện sức khỏe tinh thần</a></li>
+                <li><a href="https://manayi.vn/cham-soc-suc-khoe-tinh-than-la-gi/?utm_source=chatgpt.com" target="_blank">Chăm sóc sức khỏe tinh thần là gì?</a></li>
+                <li><a href="https://hellobacsi.blog/thoi-quen-lanh-manh/9-cach-de-cham-soc-suc-khoe-co-the-va-tinh-than-cua-ban/?utm_source=chatgpt.com" target="_blank">9 cách để chăm sóc sức khỏe cơ thể và tinh thần</a></li>
+                <li><a href="https://tripi.vn/blog/vi/kinh-nghiem-hay/cach-de-nang-cao-suc-khoe-tinh-than-tripi" target="_blank">Cách để nâng cao sức khỏe tinh thần</a></li>
+                <li><a href="https://abalanca.com/anh-sang-suc-khoe-toan-dien-bi-mat-ve-suc-khoe-the-chat-va-tinh-than/" target="_blank">Bí mật về sức khỏe thể chất và tinh thần</a></li>
+                <li><a href="https://www.watsons.vn/vi/blog/cham-soc-suc-khoe/cach-cai-thien-suc-khoe-tinh-than-hieu-qua-nhat" target="_blank">Cách cải thiện sức khỏe tinh thần hiệu quả nhất</a></li>
+                <li><a href="https://eurhovital.vn/blogs/tri-nao/nang-cao-suc-khoe-tinh-than-voi-8-cach-sau" target="_blank">Nâng cao sức khỏe tinh thần với 8 cách</a></li>
+            </ul>
+        </div>
+    
+    </body>
+    </html>
+    
+
+            <!DOCTYPE html>
+            <html lang="vi">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Sức khỏe Tinh thần</title>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        margin: 0;
+                        padding: 0;
+                        background-color: #f4f4f4;
+                    }
+                    header {
+                        background: #4CAF50;
+                        color: white;
+                        text-align: center;
+                        padding: 1em;
+                        font-size: 24px;
+                    }
+                    nav {
+                        display: flex;
+                        justify-content: center;
+                        background: #333;
+                        padding: 10px;
+                    }
+                    nav a {
+                        color: white;
+                        padding: 10px 20px;
+                        text-decoration: none;
+                    }
+                    .container {
+                        width: 80%;
+                        margin: auto;
+                        padding: 20px;
+                        background: white;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    }
+                    h2 {
+                        color: #333;
+                    }
+                    .quiz-container {
+                        background: #f9f9f9;
+                        padding: 15px;
+                        border-radius: 8px;
+                    }
+                    .question {
+                        font-weight: bold;
+                        margin-top: 10px;
+                    }
+                    button {
+                        background: #4CAF50;
+                        color: white;
+                        padding: 10px;
+                        border: none;
+                        cursor: pointer;
+                        margin-top: 10px;
+                    }
+                    button:hover {
+                        background: #45a049;
+                    }
+                    textarea {
+                        width: 100%;
+                        padding: 10px;
+                    }
+                </style>
+            </head>
+            <body>
+                
+                </nav>
+                <div class="container">
+                    <section id="quiz">
+                        <h2 class="text-2xl font-bold text-center mb-4"> 📝 CÔNG CỤ ĐÁNH GIÁ</h2>
+<div class="quiz-container">
+    <form id="quizForm">
+        <div class="question">1. Bạn có cảm thấy căng thẳng trong công việc không?</div>
+        <label><input type="radio" name="q1" value="1"> Ít khi</label>
+        <label><input type="radio" name="q1" value="2"> Thỉnh thoảng</label>
+        <label><input type="radio" name="q1" value="3"> Thường xuyên</label>
+        <br>
+        
+        <div class="question">2. Bạn có gặp khó khăn khi ngủ?</div>
+        <label><input type="radio" name="q2" value="1"> Không</label>
+        <label><input type="radio" name="q2" value="2"> Đôi khi</label>
+        <label><input type="radio" name="q2" value="3"> Rất thường xuyên</label>
+        <br>
+        
+        <div class="question">3. Bạn có thường xuyên cảm thấy lo lắng không rõ lý do?</div>
+        <label><input type="radio" name="q3" value="1"> Hiếm khi</label>
+        <label><input type="radio" name="q3" value="2"> Thỉnh thoảng</label>
+        <label><input type="radio" name="q3" value="3"> Thường xuyên</label>
+        <br>
+        
+        <div class="question">4. Bạn có cảm thấy mất hứng thú với những hoạt động từng yêu thích không?</div>
+        <label><input type="radio" name="q4" value="1"> Không</label>
+        <label><input type="radio" name="q4" value="2"> Đôi khi</label>
+        <label><input type="radio" name="q4" value="3"> Rất thường xuyên</label>
+        <br>
+        
+        <div class="question">5. Bạn có gặp khó khăn khi tập trung không?</div>
+        <label><input type="radio" name="q5" value="1"> Không</label>
+        <label><input type="radio" name="q5" value="2"> Đôi khi</label>
+        <label><input type="radio" name="q5" value="3"> Rất thường xuyên</label>
+        <br>
+        
+        <div class="question">6. Bạn có cảm thấy mệt mỏi hoặc thiếu năng lượng?</div>
+        <label><input type="radio" name="q6" value="1"> Không</label>
+        <label><input type="radio" name="q6" value="2"> Đôi khi</label>
+        <label><input type="radio" name="q6" value="3"> Rất thường xuyên</label>
+        <br>
+        
+        <div class="question">7. Bạn có cảm thấy dễ cáu kỉnh hoặc mất kiên nhẫn?</div>
+        <label><input type="radio" name="q7" value="1"> Không</label>
+        <label><input type="radio" name="q7" value="2"> Đôi khi</label>
+        <label><input type="radio" name="q7" value="3"> Rất thường xuyên</label>
+        <br>
+        
+        <div class="question">8. Bạn có cảm thấy mất kiểm soát trong cuộc sống?</div>
+        <label><input type="radio" name="q8" value="1"> Không</label>
+        <label><input type="radio" name="q8" value="2"> Đôi khi</label>
+        <label><input type="radio" name="q8" value="3"> Rất thường xuyên</label>
+        <br>
+        
+        <div class="question">9. Bạn có cảm thấy dễ bị tổn thương về mặt cảm xúc?</div>
+        <label><input type="radio" name="q9" value="1"> Không</label>
+        <label><input type="radio" name="q9" value="2"> Đôi khi</label>
+        <label><input type="radio" name="q9" value="3"> Thường xuyên</label>
+        <br>
+        
+        <div class="question">10. Bạn có thường xuyên cảm thấy cô đơn ngay cả khi có người xung quanh?</div>
+        <label><input type="radio" name="q10" value="1"> Không</label>
+        <label><input type="radio" name="q10" value="2"> Đôi khi</label>
+        <label><input type="radio" name="q10" value="3"> Rất nhiều</label>
+        <br>
+        
+        <button type="button" onclick="startQuiz()">Hoàn thành Quiz</button>
+    </form>
+</div>
+                        </div>
+                    </section>
+                </div>
+            </body>
+            </html>
+            
+        <section id="community">
+            <section id="community">
+                <h2 class="text-2xl font-bold text-center mb-4">💬 GÓC CHIA SẺ
+                <h1>Chia sẻ suy nghĩ và cảm nhận của bạn một cách ẩn danh.</p>
+            
+                <textarea id="anonymousMessage" rows="4" cols="50" placeholder="Nhập ý kiến của bạn..."></textarea>
+                <br>
+                <button onclick="postAnonymousMessage()">Gửi</button>
+            
+                <h3>Ý kiến từ cộng đồng:</h3>
+                <ul id="messageList"></ul>
+            
+                <h3>Quản trị viên</h3>
+                <button onclick="adminLogin()">Đăng nhập Admin</button>
+                <button onclick="adminLogout()">Đăng xuất Admin</button>
+            </section>
+            
+            <script>
+                document.addEventListener("DOMContentLoaded", loadMessages);
+            
+                function postAnonymousMessage() {
+                    let message = document.getElementById("anonymousMessage").value.trim();
+                    if (message === "") {
+                        alert("Vui lòng nhập ý kiến của bạn trước khi gửi.");
+                        return;
+                    }
+            
+                    let currentTime = new Date().toLocaleString();
+                    let messages = JSON.parse(localStorage.getItem("messages")) || [];
+            
+                    let newMessage = { id: Date.now(), text: message, time: currentTime };
+                    messages.push(newMessage);
+                    localStorage.setItem("messages", JSON.stringify(messages));
+            
+                    displayMessage(newMessage);
+                    document.getElementById("anonymousMessage").value = "";
+                }
+            
+                function loadMessages() {
+                    let messages = JSON.parse(localStorage.getItem("messages")) || [];
+                    document.getElementById("messageList").innerHTML = ""; 
+                    messages.forEach(displayMessage);
+                }
+            
+                function displayMessage(message) {
+                    let messageList = document.getElementById("messageList");
+                    let newMessageItem = document.createElement("li");
+                    let isAdmin = localStorage.getItem("isAdmin") === "true"; 
+            
+                    newMessageItem.innerHTML = `<strong>${message.time}</strong>: ${message.text}` +
+                        (isAdmin ? ` <button onclick="deleteMessage(${message.id})">Xóa</button>` : "");
+                    newMessageItem.id = `message-${message.id}`;
+                    messageList.appendChild(newMessageItem);
+                }
+            
+                function deleteMessage(id) {
+                    let isAdmin = localStorage.getItem("isAdmin") === "true";
+                    if (!isAdmin) {
+                        alert("Chỉ quản trị viên mới có thể xóa tin nhắn!");
+                        return;
+                    }
+            
+                    let messages = JSON.parse(localStorage.getItem("messages")) || [];
+                    messages = messages.filter(msg => msg.id !== id);
+                    localStorage.setItem("messages", JSON.stringify(messages));
+            
+                    let messageElement = document.getElementById(`message-${id}`);
+                    if (messageElement) {
+                        messageElement.remove();
+                    }
+                }
+            
+                function adminLogin() {
+                    let password = prompt("Nhập mật khẩu quản trị:");
+                    if (password === "24102006") {  // Mật khẩu mới của admin
+                        localStorage.setItem("isAdmin", "true");
+                        alert("Đăng nhập admin thành công!");
+                        loadMessages(); 
+                    } else {
+                        alert("Sai mật khẩu! Bạn không có quyền quản trị.");
+                    }
+                }
+            
+                function adminLogout() {
+                    localStorage.removeItem("isAdmin");
+                    alert("Đã đăng xuất admin.");
+                    loadMessages();
+                }
+            </script>
+            
+            
+        </section>
+        <section id="resources">
+    
+            <!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài Nguyên Hỗ Trợ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+    <div class="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-lg">
+        <h2 class="text-2xl font-bold text-center mb-4">📖 Tài Nguyên Hỗ Trợ</h2>
+        
+        <!-- Accordion Container -->
+        <div class="space-y-4">
+            <!-- Item 1 -->
+            <div class="border rounded-lg overflow-hidden">
+                <button class="w-full text-left p-4 bg-blue-500 text-white font-bold focus:outline-none accordion-header">🧘 Hướng Dẫn Thiền Để Giảm Stress</button>
+                <div class="hidden p-4 bg-gray-50 accordion-content">
+                    <p><strong>Bước 1: Chuẩn bị không gian</strong></p>
+                    <ul class="list-disc ml-6">
+                        <li>Chọn nơi yên tĩnh, không bị làm phiền.</li>
+                        <li>Ngồi thoải mái, giữ lưng thẳng.</li>
+                    </ul>
+                    <p><strong>Bước 2: Điều chỉnh hơi thở</strong></p>
+                    <ul class="list-disc ml-6">
+                        <li>Hít sâu bằng mũi, giữ 4 giây.</li>
+                        <li>Thở ra từ từ bằng miệng trong 6 giây.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="border rounded-lg overflow-hidden">
+                <button class="w-full text-left p-4 bg-green-500 text-white font-bold focus:outline-none accordion-header">🏋️ Bài Tập Giảm Stress Nhanh</button>
+                <div class="hidden p-4 bg-gray-50 accordion-content">
+                    <ul class="list-disc ml-6">
+                        <li><strong>Hít thở 4-7-8:</strong> Hít vào 4s, giữ 7s, thở ra 8s.</li>
+                        <li><strong>Giãn cơ:</strong> Xoay cổ, kéo căng cơ, cúi người.</li>
+                        <li><strong>Đi bộ chánh niệm:</strong> Tập trung vào từng bước chân.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="border rounded-lg overflow-hidden">
+                <button class="w-full text-left p-4 bg-purple-500 text-white font-bold focus:outline-none accordion-header">📋 Danh Sách Chuyên Gia Tâm Lý</button>
+                <div class="hidden p-4 bg-gray-50 accordion-content">
+                    <h4 class="font-bold">🔹 Hà Nội</h4>
+                    <ul class="list-disc ml-6">
+                        <li>MindCare – <a href="https://mindcare.vn" class="text-blue-500">mindcare.vn</a></li>
+                    </ul>
+                    <h4 class="font-bold mt-2">🔹 TP. Hồ Chí Minh</h4>
+                    <ul class="list-disc ml-6">
+                        <li>NHC Việt Nam – <a href="https://tamlytrilieunhc.com" class="text-blue-500">tamlytrilieunhc.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript for Accordion -->
+    <script>
+        document.querySelectorAll('.accordion-header').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                content.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
+
+            
+    </div>
+    <footer>
+        &copy; 2025 Sức khỏe Tinh thần | All Rights Reserved
+    </footer>
+</body>
+</html>
